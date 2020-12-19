@@ -98,7 +98,7 @@ h6{
 /* ---------header top-------- */
 .header-top{
     background-color: black;
-    height: 50px;
+    height: 55px;
 }
 .header-top li{
     list-style: none;
@@ -117,10 +117,16 @@ h6{
 .social{
     float: right;
 }
+.social .login{
+    color: #FF3115;
+}
+.header-top i{
+    padding-right: 5px;
+}
 
 /* -----main header-------- */
 .main-header{
-    padding: 30px;
+    padding: 30px 0;
 }
 .menu{
     float: right;
@@ -158,6 +164,9 @@ h6{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.heading{
+    margin: 150px 0;
+}
 .heading h2{
     color: #FF3115;
     font-size: 40px;
@@ -194,17 +203,16 @@ h6{
 }
 .btn-2:hover{
     background-color: #FF3115;
+    color: #ffffff;
 }
-.heading .col-65{
-    margin: 100px 0;
-}
+
 /* ----------counter--------- */
 .counter{
     background-image: url(../images/slide2.jpg);
-    background-position: fixed;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     margin: 70px 0;
+    padding: 70px 0;
 }
 .count{
     text-align: center;
@@ -225,7 +233,13 @@ h6{
 }
 
 .learn{
-    margin: 100px 0;
+    margin: 50px 0;
+}
+.learn h1{
+    font-size: 30px;
+}
+.learning p{
+    color: gray;
 }
 .learn span{
     color: #FF3115;
@@ -233,6 +247,7 @@ h6{
 .object{
     padding: 30px;
     background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
 }
 .object:hover{
     border: 1px solid #FF3115;
